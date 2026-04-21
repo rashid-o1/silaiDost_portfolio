@@ -46,6 +46,7 @@ export default function PrivacyPolicy() {
               <h2 className="mb-4 text-2xl font-bold text-gray-900 dark:text-white">
                 Introduction
               </h2>
+
               <p className="leading-8 text-gray-700 dark:text-gray-300">
                 This Privacy Policy describes Our policies and procedures on the
                 collection, use and disclosure of Your information when You use
@@ -187,7 +188,7 @@ export default function PrivacyPolicy() {
 
               <div className="p-8 bg-white border border-gray-200 rounded-3xl shadow-sm dark:bg-neutral-900 dark:border-neutral-800">
                 <h2 className="mb-5 text-2xl font-bold text-gray-900 dark:text-white">
-                  Children's Privacy
+                  Children&apos;s Privacy
                 </h2>
 
                 <p className="leading-8 text-gray-700 dark:text-gray-300">
