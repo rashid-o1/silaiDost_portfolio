@@ -5,19 +5,19 @@ export default function Header() {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <header className="w-full sticky-nav">
+    <header className="w-full sticky-nav bg-white border-b border-gray-100">
       <div className="flex flex-col flex-wrap max-w-5xl p-2.5 mx-auto md:flex-row">
         <div className="flex flex-row items-center justify-between p-2 md:p-1">
           <Link href="/">
-            <a className="mb-4 text-2xl font-medium text-black transition duration-300 hover:text-gray-500 dark:text-gray-300 dark:hover:text-white md:mb-0">
+            <a className="mb-4 text-2xl font-medium text-black transition duration-300 hover:text-gray-500 md:mb-0">
               SilaiDost
             </a>
           </Link>
 
           <button
-            className="px-3 py-1 pb-4 ml-auto text-black outline-none dark:text-gray-300 md:hidden"
+            className="px-3 py-1 pb-4 ml-auto text-black outline-none md:hidden"
             type="button"
-            aria-label="button"
+            aria-label="Toggle Menu"
             onClick={() => setNavbarOpen(!navbarOpen)}
           >
             <svg
@@ -46,13 +46,13 @@ export default function Header() {
         >
           <div className="flex flex-wrap items-center justify-center pt-1 pl-2 ml-1 space-x-8 md:space-x-16 md:mx-auto md:pl-14">
             <Link href="/">
-              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-500">
+              <a className="text-black transition duration-300 hover:text-gray-500">
                 Home
               </a>
             </Link>
 
             <Link href="/privacy-policy">
-              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-500">
+              <a className="text-black transition duration-300 hover:text-gray-500">
                 Privacy Policy
               </a>
             </Link>

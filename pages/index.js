@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="bg-white dark:bg-black">
+    <div className="bg-white">
       <NextSeo
         title="SilaiDost"
         description="SilaiDost is a complete tailoring management platform designed for both tailors and customers."
@@ -41,17 +41,15 @@ export default function Home() {
       <section className="relative overflow-hidden">
         <div className="px-4 pt-12 mx-auto max-w-7xl md:pt-20">
           <div className="w-full mx-auto text-center md:w-10/12">
-            <h1 className="mb-4 text-5xl font-bold tracking-tight text-gray-900 dark:text-white md:text-6xl lg:text-7xl">
+            <h1 className="mb-4 text-5xl font-bold tracking-tight text-gray-900 md:text-6xl lg:text-7xl">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-cyan-500 to-sky-500">
                 SilaiDost
               </span>
               <br />
-              Crafting Style, Connectiing People, 
-              <br />
-              
+              Crafting Style, Connecting People
             </h1>
 
-            <p className="max-w-3xl mx-auto mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400 md:text-xl">
+            <p className="max-w-3xl mx-auto mt-6 text-lg leading-8 text-gray-600 md:text-xl">
               SilaiDost is a complete tailoring management platform designed
               for both tailors and customers. It helps simplify business
               operations by connecting tailors and customers in one easy-to-use
@@ -71,13 +69,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-4 py-16 bg-gray-50 dark:bg-neutral-950">
+      <section className="px-4 py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="mb-12 text-center">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white md:text-4xl">
+            <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">
               Tailor Portal
             </h2>
-            <p className="max-w-2xl mx-auto mt-4 text-gray-600 dark:text-gray-400">
+            <p className="max-w-2xl mx-auto mt-4 text-gray-600">
               Tailors can register themselves, submit business details, choose
               subscription packages, and manage their tailoring business from a
               single dashboard.
@@ -97,9 +95,9 @@ export default function Home() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="p-6 bg-white border border-gray-100 shadow-sm rounded-2xl dark:bg-neutral-900 dark:border-neutral-800"
+                className="p-6 bg-white border border-gray-100 shadow-sm rounded-2xl"
               >
-                <p className="text-base font-medium text-gray-700 dark:text-gray-300">
+                <p className="text-base font-medium text-gray-700">
                   {item}
                 </p>
               </div>
@@ -108,13 +106,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-4 py-16 bg-white dark:bg-black">
+      <section className="px-4 py-16 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="mb-12 text-center">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white md:text-4xl">
+            <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">
               Customer Portal
             </h2>
-            <p className="max-w-2xl mx-auto mt-4 text-gray-600 dark:text-gray-400">
+            <p className="max-w-2xl mx-auto mt-4 text-gray-600">
               Customers stay connected with their tailor through a simple and
               organized interface built for order tracking and communication.
             </p>
@@ -131,9 +129,9 @@ export default function Home() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="p-6 bg-gray-50 border border-gray-100 shadow-sm rounded-2xl dark:bg-neutral-900 dark:border-neutral-800"
+                className="p-6 bg-gray-50 border border-gray-100 shadow-sm rounded-2xl"
               >
-                <p className="text-base font-medium text-gray-700 dark:text-gray-300">
+                <p className="text-base font-medium text-gray-700">
                   {item}
                 </p>
               </div>
@@ -144,10 +142,10 @@ export default function Home() {
 
       <section className="px-4 py-20">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white md:text-4xl">
+          <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">
             Built for Modern Tailoring Businesses
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
+          <p className="mt-6 text-lg leading-8 text-gray-600">
             SilaiDost helps tailors manage customers, measurements, orders,
             payments, deadlines, and communication — all in one place.
           </p>
